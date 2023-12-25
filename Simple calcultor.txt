@@ -1,0 +1,23 @@
+A=int(input("Enter the number: "))
+B=int(input("Enter the number: "))
+print("The first given number is",A)
+print("The second number is ",B)
+print("---Choice the from the following---")
+print("Add")
+print("Subtract")
+print("Multiply")
+print("Divide")
+print("Module")
+choice=input("Please enter your choice: ")
+print(choice)
+if choice=="Add":
+    print(A+B)
+if choice=="Subtract":
+    print(A-B)
+if choice=="Multiply":
+    print(A*B)
+if choice=="Divide":
+    print(A/B)
+if choice=="Module":
+    print(A%B)
+
