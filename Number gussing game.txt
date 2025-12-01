@@ -1,4 +1,3 @@
-#No guessing program
 import random
 
 print("**************Welcome to Number Guessing Game!!!************")
@@ -36,4 +35,5 @@ else:
         print("Sorry, your given chances are finished. The number to guess was:", num)
 
 print("\nThank you for playing the game!")
+
 
